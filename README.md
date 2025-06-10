@@ -96,8 +96,8 @@ CREATE TABLE students (
 ```
 
 #### Ejecutar la Migración
-### Verificar el estado de cambios pendientes
 
+### Verificar el estado de cambios pendientes
 liquibase --defaultsFile=liquibase-dev.properties status
 
 ### Aplicar la migración en la base de datos de desarrollo
